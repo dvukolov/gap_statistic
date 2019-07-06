@@ -43,7 +43,7 @@ setup(
     rust_extensions=[
         RustExtension("gap_statistic.rust.gapstat", "Cargo.toml", binding=Binding.PyO3)
     ],
-    license="MIT",
+    license="BSD",
     url="https://github.com/milesgranger/gap_statistic",
     zip_safe=False,
     setup_requires=setup_requires,
